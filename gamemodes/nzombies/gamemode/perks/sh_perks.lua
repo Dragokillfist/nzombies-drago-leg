@@ -268,9 +268,9 @@ nzPerks:NewPerk("pap", {
 						wep.Owner = ply
 						wep:SetMoveType( MOVETYPE_FLY )
 					end
-					
+
 					--print(wep, wep.WepClass, wep:GetModel())
-				
+
 					machine:EmitSound("nz/machines/pap_ready.wav")
 					wep:SetCollisionBounds(Vector(0,0,0), Vector(0,0,0))
 					wep:SetMoveType(MOVETYPE_FLY)
